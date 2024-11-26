@@ -14,5 +14,6 @@ public class demo1 {
 		WebDriverManager.chromedriver().setup();
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.google.com/");
+		System.out.println("hello");
 	}
 }
